@@ -42,5 +42,5 @@ With Amazon EC2 you can setup and configure the OS(operating system) and Applica
 
 ## Create An Instance :
 
-**Step-1** - Go to the AWS console. [https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#](https://ap-south-1.console.aws.amazon.com/console/home)
+**Step-1** - Go to the AWS console. [https://ap-south-1.console.aws.amazon.com/console/home](https://ap-south-1.console.aws.amazon.com/console/home)
 

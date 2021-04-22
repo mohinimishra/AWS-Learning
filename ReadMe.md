@@ -91,3 +91,25 @@ With Amazon EC2 you can setup and configure the OS(operating system) and Applica
 <br />
 
 **Step-9** - After all the steup you get the confirmation page. Click on View Instance. On Instance screen you can check the status of the Instance.
+
+## To connect to your Instance :
+
+**To connect with your linux instance you need to follow these steps.**
+
+**Step 1 -**  Go to the AWS console. [https://ap-south-1.console.aws.amazon.com/ec2/v2/home](https://ap-south-1.console.aws.amazon.com/ec2/v2/home)
+<br />
+
+**Step 2 -** Select Instance in Resources and select the instance which you want to connect and the click on "Connect".
+
+**Step 3 -** Open your command line and write below command to not be publicly viewable for SSH to work. This command is secure way of Authorization.
+
+```js
+chmod 400 "your-pem-file-name.pem"
+```
+
+**Step-4-** To connect to your instance using the public DNS. You need the below command -
+
+```js
+ssh -i <"your-pem-file-name.pem"> <Your-public-DNS>
+```
+**After doing this you will be connect to your Instance".

@@ -71,7 +71,7 @@ With Amazon EC2 you can setup and configure the OS(operating system) and Applica
 
 **Step-5** - After clicking on "Review and Launch" there you can see the the details of AMI, Instance Type, Security Group, Instance Details, Storage, and Tags. You can edit that according to your preference. 
 
-**You can see under the Security Group wizard select group for you. You can edit the Security Group by clicking the edit security button on right side .
+**You can see under the Security Group wizard select group for you. You can edit the Security Group by clicking the edit security button on right side** .
 
 **Step-6** - Configure security group you can add rule.
 

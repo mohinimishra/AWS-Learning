@@ -117,4 +117,8 @@ ssh -i <"your-pem-file-name.pem"> <Your-public-DNS>
 ```
 <br />
 
-**After doing this you will be connect to your Instance".**
+**"After doing this you will be connect to your Instance".**
+
+## Transfer Files To Linux Instances Using SCP Client 
+
+### One way to transfer file between your local computer to linux instance is to use SCP (Secure Copy Protocol).

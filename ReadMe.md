@@ -95,7 +95,7 @@ With Amazon EC2 you can setup and configure the OS(operating system) and Applica
 ## To connect to your Linux Instance using SSH :
 
 ### Prerequisites:
-**To connect with your linux instance using SSH you need to complete prereqisites.
+**To connect with your linux instance using SSH you need to complete prereqisites.**
 
 **1 -** Check your instance status. (it should be running in state)
 
@@ -139,7 +139,7 @@ ssh -i <"your-pem-file-name.pem"> <Your-public-DNS>
 <br />
 
 
-**To transfer the file from local computer to your linux instance you need to have this  **
+**To transfer the file from local computer to your linux instance you need to have this**
 
 <br />
 
@@ -152,7 +152,7 @@ ssh -i <"your-pem-file-name.pem"> <Your-public-DNS>
 
 <br/>
 
-**If you have above listed elements you cna proceed with one command to transfer local computer file to your linux instance in AWS.
+**If you have above listed elements you cna proceed with one command to transfer local computer file to your linux instance in AWS.**sss
 
 <br/>
 

@@ -152,7 +152,7 @@ ssh -i <"your-pem-file-name.pem"> <Your-public-DNS>
 
 <br/>
 
-**If you have above listed elements you cna proceed with one command to transfer local computer file to your linux instance in AWS.**sss
+**If you have above listed elements you cna proceed with one command to transfer local computer file to your linux instance in AWS.**
 
 <br/>
 

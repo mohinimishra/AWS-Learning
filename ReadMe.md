@@ -92,7 +92,16 @@ With Amazon EC2 you can setup and configure the OS(operating system) and Applica
 
 **Step-9** - After all the steup you get the confirmation page. Click on View Instance. On Instance screen you can check the status of the Instance.
 
-## To connect to your Instance :
+## To connect to your Linux Instance using SSH :
+
+### Prerequisites:
+**To connect with your linux instance using SSH you need to complete prereqisites.
+
+**1 -** Check your instance status. (it should be running in state)
+
+**2 -** Get the public DNS name and user name to connect with your instance.
+
+**3 -** Install the SSH client on your local computer as needed.
 
 **To connect with your linux instance you need to follow these steps.**
 
@@ -107,6 +116,7 @@ With Amazon EC2 you can setup and configure the OS(operating system) and Applica
 ```js
 chmod 400 "your-pem-file-name.pem"
 ```
+
 <br />
 
 
@@ -119,6 +129,44 @@ ssh -i <"your-pem-file-name.pem"> <Your-public-DNS>
 
 **"After doing this you will be connect to your Instance".**
 
-## Transfer Files To Linux Instances Using SCP Client 
+<br />
 
-### One way to transfer file between your local computer to linux instance is to use SCP (Secure Copy Protocol).
+## Transfer Files To Linux Instances Using SCP Client 
+<br />
+
+* One way to transfer file between your local computer to linux instance is to use SCP (Secure Copy Protocol).
+
+<br />
+
+
+**To transfer the file from local computer to your linux instance you need to have this  **
+
+<br />
+
+
+**1-** Get your private key.(your pem file) like "example.pem".
+
+**2-** Your file name which you want to transfer in your linux instance.(ex- file.txt).
+
+**3-** Your Public DNS.(to transfer the file from local computer to linux instance)
+
+<br/>
+
+**If you have above listed elements you cna proceed with one command to transfer local computer file to your linux instance in AWS.
+
+<br/>
+
+**Using Public DNS**
+```js
+scp -i /path/my-key-pair.pem /path/my-file.txt ec2-user@my-instance-public-dns-name:path/
+```
+<br/>
+
+**Using IPV6 Address**
+```js
+scp -i /path/my-key-pair.pem /path/my-file.txt ec2-user@\[my-instance-IPv6-address\]:path/
+```
+
+
+
+
